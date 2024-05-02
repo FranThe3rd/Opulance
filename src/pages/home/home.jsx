@@ -2,6 +2,7 @@ import './home.css';
 import { Users, DownloadSimple, Coins, Bank, CurrencyBtc, Money,CurrencyEth,CurrencyCircleDollar,ShieldCheck,Lock,Wallet, GooglePlayLogo} from 'phosphor-react';
 import { useEffect } from 'react';
 import mainLogo from '../../img/logo.png'
+import Market from './market/market';
 
 
 export const Home = () => {
@@ -59,6 +60,8 @@ export const Home = () => {
                 </div>
 
             </div>
+            <Market />
+
         </div>
     )
 }
