@@ -2,8 +2,8 @@
 
 .home {
   padding-top: 20px;
-  width: 100;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(109.6deg, rgb(2, 27, 90) 11.2%, rgb(102, 51, 153) 91.1%);
   padding-bottom: 50px;
 }
@@ -37,7 +37,6 @@ margin: 0 auto;
 
 .home-grid {
 
-  max-height: 500px;
   height: 100%;
   margin: 0 auto;
   width: 85%;
@@ -50,10 +49,6 @@ margin: 0 auto;
 
 /* Home Grid Left */
 
-
-.home-info {
-
-}
 
 .home-info h1 {
   text-align: left;
@@ -272,9 +267,7 @@ align-items: center;
 
   @media screen and (max-width: 1330px) {
 
-    .home {
-      padding-bottom: 300px;
-    }
+
     .home-grid {
       grid-template-columns: repeat(1,1fr);
       text-align: center;
@@ -283,6 +276,7 @@ align-items: center;
 
     .home-info h1  {
       text-align: center;
+      font-size: clamp( 2rem, 2vw, 3rem);
     }
 
     .home-info h3  {
@@ -293,8 +287,38 @@ align-items: center;
       justify-content: center;
     }
   
-  
 }
+
+
+@media screen and (max-width: 1024px) {
+
+  .home-info-buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+
+@media screen and (max-width: 760px) {
+
+  .home-grid {
+    max-width: 80%;
+  }
+  .home-app {
+    grid-template-columns: repeat(2,1fr);
+
+  }
+
+  .home-item9 
+  {
+    display: none;
+  }
+  
+
+}
+
 
 
 
