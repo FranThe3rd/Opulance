@@ -17,7 +17,7 @@ const Market = () => {
             <tr>
               <th>Stock</th>
               <th>Price</th>
-              <th>24h Change</th>
+              <th>24hr Change</th>
               <th>Prev. Close</th>
             </tr>
           </thead>

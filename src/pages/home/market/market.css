@@ -56,8 +56,24 @@
     color: #ff0000;
 }
 
+@media screen and  (max-width: 1600px) {
+    .market-container {
+        width: 85%;
+    }
+
+    
+}
+
+@media screen and  (max-width: 1300px) {
+    .market {
+        padding-top: 80px;
+    }
+}
+
 
 @media screen and  (max-width: 1000px) {
+
+    
     .market-container {
         width: 90%;
     }
@@ -83,6 +99,17 @@
 
     }
 }
+
+@media screen and  (max-width: 640px) {
+    .market-container h1 {
+        font-size: clamp(40px, 5vw, 40px);
+    }
+
+   
+
+    
+}
+
 
 
 

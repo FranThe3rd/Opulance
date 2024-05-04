@@ -3,6 +3,8 @@ import { Users, DownloadSimple, Coins, Bank, CurrencyBtc, Money,CurrencyEth,Curr
 import { useEffect } from 'react';
 import mainLogo from '../../img/logo.png'
 import Market from './market/market';
+import {Link as LinkScroll} from 'react-scroll'
+
 
 
 export const Home = () => {
@@ -24,9 +26,11 @@ export const Home = () => {
                     <h3>By installing this application on your phone, you will benefit from excellent financial services</h3>
 
                     <div className='home-info-buttons'>
-                        <button className='home-get-bttn'>
-                            Get Started
-                        </button>
+                        <LinkScroll to='market-container' smooth={true} duration={1000}>
+                            <button className='home-get-bttn'>
+                                Get Started
+                            </button>
+                        </LinkScroll>
                         <button className='home-download-bttn'>
                             <GooglePlayLogo color='white'  /> Download For IOS
                         </button>

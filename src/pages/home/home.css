@@ -191,7 +191,7 @@ border-radius: 20px;
 display: grid;
 place-content: center;
 border: #725AC1 4px solid;
-box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+box-shadow: rgba(88, 46, 240, 0.4) 5px 5px, rgba(46, 59, 240, 0.3) 10px 10px, rgba(120, 46, 240, 0.2) 15px 15px, rgba(65, 46, 240, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 .home-item1:hover,
@@ -204,6 +204,7 @@ box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0p
 .home-item8:hover,
 .home-item9:hover  {
 transition: ease-out 0.5s;
+scale: 1.1;
 background-color: rgba(14, 30, 37, 0.12);
 }
 
