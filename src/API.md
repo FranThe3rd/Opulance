@@ -2,6 +2,9 @@
 # Place This Use Effect In The Market JSX
 
 ```
+const [stocks, setStocks] = useState([]);
+const stocksToFetch = ['Apple', 'Microsoft', 'Amazon', 'Google', 'Facebook', 'Tesla', 'Netflix', 'Alphabet', 'IBM', 'Intel']; 
+
   useEffect(() => {
     const fetchStocks = async () => {
       const stocksData = [];
