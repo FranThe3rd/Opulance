@@ -2,8 +2,9 @@ import './home.css';
 import { Users, DownloadSimple, Coins, Bank, CurrencyBtc, Money,CurrencyEth,CurrencyCircleDollar,ShieldCheck,Lock,Wallet, GooglePlayLogo} from 'phosphor-react';
 import { useEffect } from 'react';
 import mainLogo from '../../img/logo.png'
-import Market from './market/market';
+import Market from '../market/market';
 import {Link as LinkScroll} from 'react-scroll'
+import Choose from '../choose/choose';
 
 
 
@@ -66,6 +67,7 @@ export const Home = () => {
             </div>
 
             <Market />
+            <Choose />
 
         </div>
     )
