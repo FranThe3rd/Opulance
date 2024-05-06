@@ -5,6 +5,7 @@ import mainLogo from '../../img/logo.png'
 import Market from '../market/market';
 import {Link as LinkScroll} from 'react-scroll'
 import Choose from '../choose/choose';
+import Join from '../join/join'
 
 
 
@@ -68,6 +69,7 @@ export const Home = () => {
 
             <Market />
             <Choose />
+            <Join />
 
         </div>
     )

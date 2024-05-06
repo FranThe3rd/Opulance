@@ -9,7 +9,7 @@
     font-weight: 600;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(1.5rem, 4vw, 4vw);
+    font-size: clamp(1.5rem, 5vw, 5vw);
 }
 
 .choose-grid {
