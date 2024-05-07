@@ -1,11 +1,22 @@
 .join {
+    margin: 0 auto;
     padding-top: 150px;
     width: 100%;
     height: 100%;
     padding-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    place-content: center;
+    align-items: center;
+  
 }
+
+.join img {
+    margin: 0 auto;
+}
+
+
+
 
 .joinh1 {
     text-align: center;
