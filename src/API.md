@@ -52,7 +52,7 @@ const stocksToFetch = ['Apple', 'Microsoft', 'Amazon', 'Google', 'Facebook', 'Te
 ## Default
 
 ```
-            <tr>
+             <tr>
               <td>Apple</td>
               <td>$183.38</td>
               <td className='positive_change'>+10.35%</td>

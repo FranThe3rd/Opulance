@@ -65,7 +65,7 @@ const Market = () => {
             <tr>
               <td>Amazon</td>
               <td>$186.21</td>
-              <td className='positive_change'>+1.49%</td>
+              <td className='negative_change'>-1.49%</td>
               <td>$184.72</td>
             </tr>
             <tr>
@@ -77,7 +77,7 @@ const Market = () => {
             <tr>
               <td>Facebook</td>
               <td>$451.96</td>
-              <td className='positive_change'>+10.28%</td>
+              <td className='negative_change'>-3.28%</td>
               <td>$441.68</td>
             </tr>
             <tr>
@@ -107,7 +107,7 @@ const Market = () => {
             <tr>
               <td>AMD</td>
               <td>$150.60</td>
-              <td className='positive_change'>+4.44%</td>
+              <td className='negative_change'>-4.44%</td>
               <td>$146.16</td>
             </tr>
 
