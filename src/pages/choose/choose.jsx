@@ -36,7 +36,7 @@ const Choose = () => {
         </div>
 
         <div className='choose-grid-center'>
-          <img className='hidden9' src={handMoney} alt="" />
+          <img className='disappear' src={handMoney} alt="" />
         </div>
 
         <div className='choose-grid-right disappear'>
