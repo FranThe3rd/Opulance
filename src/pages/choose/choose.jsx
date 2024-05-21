@@ -11,7 +11,7 @@ const Choose = () => {
 
       <div className='choose-grid'>
 
-        <div className='choose-grid-left disappear'>
+        <div className='choose-grid-left '>
         <div className='choose-item'>
             <Wallet size={65} />
             <div className='choose-item-text'>
@@ -36,10 +36,10 @@ const Choose = () => {
         </div>
 
         <div className='choose-grid-center'>
-          <img className='disappear' src={handMoney} alt="" />
+          <img className='' src={handMoney} alt="" />
         </div>
 
-        <div className='choose-grid-right disappear'>
+        <div className='choose-grid-right '>
           <div className='choose-item'>
             <ShoppingCart size={65} />
             <div className='choose-item-text'>

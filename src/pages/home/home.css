@@ -329,6 +329,30 @@ align-items: center;
     display: none;
   }
 
+  .home-download-bttn {
+    margin: 0 auto; 
+
+
+  }
+  .home-get-bttn {
+    margin: 0 auto; 
+  }
+
+  .home-active-info {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .active-grid {
+    margin: 0 auto;
+  }
+
+  .home-info-buttons {
+    margin: 0 auto;
+  }
+
   
   
 
