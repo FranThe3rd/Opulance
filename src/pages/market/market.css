@@ -35,6 +35,18 @@
     font-weight: 100;
     font-size: clamp(0.5rem, 1.5vw, 1.5rem);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+ 
+}
+
+.market-table th {
+    padding: 25.1px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+    text-align: left;
+    color: #ffffff;
 }
 
 .market-table td {
@@ -44,6 +56,7 @@
     font-weight: 600;
     font-size: clamp(0.5rem, 1.5vw, 1.5rem);
     border-bottom: 1px solid #f3f3f3;
+    text-align: left;
     
 
 }
@@ -70,7 +83,7 @@
     border: none;
     transition: all ease-in-out 0.3s;
     border: solid 2px #2c2c2c;
-    font-size: 20px;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
     font-weight: 600;
 }
 
